@@ -1,0 +1,519 @@
+#windowblue{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(rgb(140, 202, 230),whitesmoke);
+    z-index: 1;
+}
+
+#windowframeleft{
+    position: absolute;
+    width: 70px;
+    height: 300px;
+    background: gray;
+    z-index: 2;
+}
+
+#windowframe{
+    position: absolute;
+    top:308px;
+    width: 500px;
+    height: 30px;
+    background: gray;
+    z-index: 3;
+}
+
+#windowframewhiteleft{
+    position: absolute;
+    left: 50px;
+    width:10px;
+    height:310px;
+    background: linear-gradient(to right,whitesmoke,gray);
+    z-index: 4;
+}
+
+#windowframewhite{
+    position:absolute;
+    left: 50px;
+    top: 318px;
+    width:458px;
+    height: 8px;
+    background: linear-gradient(to top, whitesmoke,gray);
+    z-index: 5;
+}
+
+#windowsill{
+    position:absolute;
+    top:338px;
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to top,whitesmoke,rgb(179, 178, 178));
+    z-index: 6;
+}
+
+#bottle{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    width: 100px;
+    height:150px;
+    background: rgba(255, 255, 255);
+    border-radius: 20px;
+    z-index: 7;
+}
+
+#bottletop{
+    position: absolute;
+    top: -132px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 150px solid rgba(255, 255, 255);
+    border-radius: 20px;
+    z-index: 8;
+}
+
+#bottletop2{
+    position: absolute;
+    top:-131px;
+    left:30px;
+    width:40px;
+    height: 65px;
+    background: linear-gradient(to bottom, rgb(194, 193, 193), white);
+    z-index: 9;
+}
+
+#cap{
+    position: absolute;
+    top:-135px;
+    left: 29px;
+    width: 42px;
+    height: 30px; 
+    background: linear-gradient(to right, green, rgb(2, 85, 2));
+    z-index: 10;
+    border-radius: 5px;
+}
+
+#label{
+    position: absolute;
+    top: -55px;
+    left: 8px;
+    width: 25px;
+    height:0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 70px solid rgb(28, 150, 63);
+    border-radius: 20px;
+    z-index: 11;
+}
+
+#cap2{
+    position: absolute;
+    top: 280px;
+    left:145px;
+    height: 46px;
+    width: 70px;
+    background: rgb(158, 137, 83);
+    border-radius: 5px;
+    z-index: 12;
+}
+
+#pill{
+    position: absolute;
+    top: 440px;
+    left: 150px;
+    height: 10px;
+    width: 20px;
+    background: pink;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    z-index: 13;
+}
+
+#pill1{
+    position: absolute;
+    top: 440px;
+    left: 180px;
+    height: 10px;
+    width: 20px;
+    background: red;
+    border-radius: 5px;
+    transform: rotate(-35deg);
+    z-index: 14;
+}
+
+#pill2{
+    position: absolute;
+    top: 420px;
+    left: 160px;
+    height: 10px;
+    width: 20px;
+    background: orange;
+    border-radius: 5px;
+    transform: rotate(15deg);
+    z-index: 15;
+}
+
+#pill3{
+    position: absolute;
+    top: 430px;
+    left: 190px;
+    height: 10px;
+    width: 20px;
+    background: yellow;
+    border-radius: 5px;
+    transform: rotate(5deg);
+    z-index: 16;
+}
+
+#pill4{
+    position: absolute;
+    top: 430px;
+    left: 170px;
+    height: 10px;
+    width: 20px;
+    background: green;
+    border-radius: 5px;
+    transform: rotate(-25deg);
+    z-index: 17;
+}
+
+#pill5{
+    position: absolute;
+    top: 425px;
+    left: 150px;
+    height: 10px;
+    width: 20px;
+    background: blue;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    z-index: 18;
+}
+
+#pill6{
+    position: absolute;
+    top: 420px;
+    left: 180px;
+    height: 10px;
+    width: 20px;
+    background: purple;
+    border-radius: 5px;
+    transform: rotate(15deg);
+    z-index: 19;
+}
+
+#pill7{
+    position: absolute;
+    top: 413px;
+    left: 190px;
+    height: 10px;
+    width: 20px;
+    background: pink;
+    border-radius: 5px;
+    transform: rotate(35deg);
+    z-index: 20;
+}
+
+#bottle2{
+    position: absolute;
+    top: 320px;
+    left: 130px;
+    width: 100px;
+    height:150px;
+    background: rgba(255, 255, 255, 0.639);
+    border-radius: 20px;
+    z-index: 21;
+}
+
+#bottletop22 {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    width: 110px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.639);
+    border-radius: 20px;
+    z-index: 22;
+}
+
+#robottop{
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    width: 150px;
+    height: 70px;
+    background: rgb(255, 255, 115);
+    border-radius: 10px;
+    z-index: 23;
+}
+
+#robotbottom{
+    position: absolute;
+    top:390px;
+    left: 250px;
+    width: 150px;
+    height: 50px;
+    background: lightblue;
+    border-radius: 10px;
+    z-index: 24;
+}
+
+#roboface{
+    position: absolute;
+    top: 330px;
+    left: 270px;
+    width: 110px;
+    height: 50px;
+    background: rgb(255, 205, 212);
+    border-radius: 10px;
+    z-index: 25;
+}
+
+#roboeye1{
+    position: absolute;
+    top:345px;
+    left: 305px;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    z-index: 26;
+}
+
+#roboeye2{
+    position: absolute;
+    top:345px;
+    left: 335px;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    z-index: 26;
+}
+
+#robomouth{
+    position: absolute;
+    top:350px;
+    left: 320px;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    z-index: 27;
+}
+
+#robomouth2{
+    position: absolute;
+    top: 344px;
+    left: 319px;
+    width: 12px;
+    height: 12px;
+    background: rgb(255, 205, 212);
+    border-radius: 50%;
+    z-index: 28;
+}
+
+#roboblush1{
+    position: absolute;
+    top:355px;
+    left: 345px;
+    width: 15px;
+    height: 10px;
+    background: #ffa5f4;
+    border-radius: 45%;
+    z-index: 29;
+}
+
+#roboblush2{
+    position: absolute;
+    top:355px;
+    left: 290px;
+    width: 15px;
+    height: 10px;
+    background: #ffa5f4;
+    border-radius: 45%;
+    z-index: 29;
+}
+
+#roboheart{
+    position: absolute;
+    top:395px;
+    left: 315px;
+    width: 10px;
+    height: 10px;
+    background: #ff7af0;
+    border-radius: 45%;
+    z-index: 30;
+}
+
+#roboheartsec{
+    position: absolute;
+    top:395px;
+    left: 325px;
+    width: 10px;
+    height: 10px;
+    background: #ff7af0;
+    border-radius: 45%;
+    z-index: 31;
+}
+
+#roboheartthird{
+    position: absolute;
+    top: 402px;
+    left: 315px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ff7af0;
+    z-index: 32;
+}
+
+#robobox1{
+    position: absolute;
+    top: 415px;
+    left: 270px;
+    width: 110px;
+    height: 20px;
+    background: rgb(255, 156, 169);
+    border-radius: 5px;
+    z-index: 33;
+}
+
+#robobox2{
+    position: absolute;
+    top: 418px;
+    left: 275px;
+    width: 100px;
+    height: 15px;
+    background: rgb(255, 205, 212);
+    border-radius: 5px;
+    z-index: 34;
+}
+
+#roboantenna{
+    position: absolute;
+    top: 295px;
+    left: 320px;
+    width: 8px;
+    height: 25px;
+    background: lightblue;
+    border-radius: 5px;
+    z-index: 35;
+}
+
+#roboheart2{
+    position: absolute;
+    top: 280px;
+    left: 314px;
+    width: 10px;
+    height: 10px;
+    background: #ff7af0;
+    border-radius: 45%;
+    z-index: 36;
+}
+
+#roboheart2sec{
+    position: absolute;
+    top:280px;
+    left: 324px;
+    width: 10px;
+    height: 10px;
+    background: #ff7af0;
+    border-radius: 45%;
+    z-index: 37;
+}
+
+#roboheart2third{
+    position: absolute;
+    top: 287px;
+    left: 314px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ff7af0;
+    z-index: 38;
+}
+
+#robolegtop1{
+    position: absolute;
+    top: 440px;
+    left: 270px;
+    width: 15px;
+    height: 15px;
+    background:rgb(255, 205, 212);
+    z-index: 39;
+}
+
+#robolegbottom1{
+    position: absolute;
+    top: 455px;
+    left: 265px;
+    width: 25px;
+    height: 15px;
+    background:rgb(255, 255, 255);
+    z-index: 39;
+}
+
+#robolegtop2{
+    position: absolute;
+    top: 440px;
+    left: 370px;
+    width: 15px;
+    height: 15px;
+    background:rgb(255, 205, 212);
+    z-index: 41;
+}
+
+#robolegbottom2{
+    position: absolute;
+    top: 455px;
+    left: 365px;
+    width: 25px;
+    height: 15px;
+    background:rgb(255, 255, 255);
+    z-index: 39;
+}
+
+#roboarm1{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    width: 10px;
+    height: 15px;
+    background:rgb(255, 205, 212);
+    z-index: 40;
+}
+
+#roboarm2{
+    position: absolute;
+    top: 400px;
+    left: 240px;
+    width: 10px;
+    height: 15px;
+    background:rgb(255, 205, 212);
+    z-index: 41;
+}
+
+
+#robohand1{
+    position: absolute;
+    top: 397px;
+    left: 230px;
+    width: 10px;
+    height: 20px;
+    background:rgb(255, 255, 255);
+    z-index: 42;
+}
+
+#robohand2{
+    position: absolute;
+    top: 397px;
+    left: 410px;
+    width: 10px;
+    height: 20px;
+    background:rgb(255, 255, 255);
+    z-index: 43;
+}
